@@ -1,0 +1,155 @@
+
+/*nav*/
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+nav.navbar.navbar-default {
+    position: absolute;
+    top:0;
+    z-index: 20;
+    width:100%;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: rgba(17, 17, 17, 5);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FCFCFC;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #F8512F;
+    background-color: rgba(17, 17, 17,.2);
+}
+/*end of nav*/
+.logo{
+    width:90px;
+
+}
+
+/*left side*/
+.rightColumn{
+  /*background-color:#F8512F;*/
+  padding-top: 50px;
+  padding-left: 85%;
+  padding-right: 20px;
+  width:30px;
+  height:100%;
+  display:block;
+  /*position: right; */
+  position: fixed;
+
+  /*top:0;*/
+  /*left:0;*/
+
+}
+/*end left side*/
+/*right side body*/
+.leftColumn{
+  /*background-color:#66ff66;*/
+  padding-top: 0px;
+  padding-left: 5%;
+}
+
+.myButton{
+  background-color: #F8512F;
+  color: #fff;
+  margin-top: 100%;
+  padding-right: 150px;
+  border-radius: 15px 0px 15px 0px;
+}
+.days{
+  padding-left:20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right:20px;
+}
+.familyPhoto{
+  padding:30px 10px;
+  max-width: 260px;
+
+}
+
+/*end right side body*/
+
+
+/*my story*/
+
+
+
+#my-story{
+  min-height: 300px;
+  padding-bottom: 40px;
+}
+
+#my-story .row{
+  margin-top: 30px;
+}
+
+#my-story h1{
+  font-family: 'Lobster',cursive;
+  color: #F8512F;
+  font-size: 75px;
+  margin-top: 0;
+}
+#my-story h2{
+  font-size: 28px;
+  margin-top: -15px; 
+}
+#my-story p{
+  font-weight: 300;
+  font-size: 17px;
+}
+
+/*end of my story*/
+/*review*/
+#review{
+  background-image: url(../img/lakeshore.jpg) ;
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position:center;
+  min-height: 600px;
+}
+#review .center{
+  float: none;
+  margin: 0 auto;
+  background-color: rgba(20, 20, 20, .6);
+  padding: 10px;
+  margin-top: 145px;
+  border-radius: 5px;
+}
+
+#review h2{
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  color: #F8512F;
+  text-shadow: 1px 1px 5px #0a0a0a;
+
+}
+
+#review p{
+  color:#fff;
+  font-weight: 300;
+  font-size: 30px;
+  text-shadow: 1px 1px 5px #0a0a0a;
+
+}
+
+/*end of review*/
+/*footer*/
+footer {
+  background-color: #231f20;
+  padding-top: 20px;
+}
+
+footer a{
+  color:#bfc0c1;
+}
+/*end footer*/
